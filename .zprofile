@@ -6,3 +6,5 @@ export TESTCONTAINERS_RYUK_DISABLED=true
 # GPG config
 export GPG_TTY=$TTY
 
+# Editor config
+export EDITOR=nvim
