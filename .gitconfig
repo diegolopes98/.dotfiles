@@ -1,0 +1,24 @@
+[core]
+    editor = nvim
+[user]
+    name = Diego Pereira Lopes
+    email = diegopereiralopes98@gmail.com
+    signingkey = 687768A4D8D396B5
+[push]
+    followTags = true
+[alias]
+    l = !git log --pretty=format:'%C(cyan)%h%C(magenta)%d %C(white)%s - %C(yellow)%ae, %C(yellow)%cr'
+    s = !git status -s
+    p = !git push origin HEAD
+    c = !git commit -m
+    ca = !git add --all && git commit -m
+    ch = !git checkout
+    cne = !git add --all && git commit --amend --no-edit
+    chd = !git checkout develop
+    chnb = !git checkout -b 
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[commit]
+    gpgsign = true
+[tag]
+    gpgsign = true
