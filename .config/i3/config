@@ -158,3 +158,4 @@ bar {
 }
 
 exec redshift
+exec thunar --daemon
