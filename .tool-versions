@@ -1,4 +1,4 @@
 java openjdk-21.0.2
-golang 1.22.3
-rust 1.81.0
-nodejs 20.13.1
+golang 1.23.4
+rust 1.83.0
+nodejs 22.12.0
