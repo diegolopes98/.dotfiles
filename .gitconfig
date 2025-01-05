@@ -16,8 +16,6 @@
     cne = !git add --all && git commit --amend --no-edit
     chd = !git checkout develop
     chnb = !git checkout -b 
-[url "git@github.com:"]
-    insteadOf = https://github.com/
 [commit]
     gpgsign = true
 [tag]
