@@ -1,9 +1,5 @@
 [core]
     editor = nvim
-[user]
-    name = Diego Pereira Lopes
-    email = diegopereiralopes98@gmail.com
-    signingkey = 687768A4D8D396B5
 [push]
     followTags = true
 [alias]
@@ -15,8 +11,4 @@
     ch = !git checkout
     cne = !git add --all && git commit --amend --no-edit
     chd = !git checkout develop
-    chnb = !git checkout -b 
-[commit]
-    gpgsign = true
-[tag]
-    gpgsign = true
+    chnb = !git checkout -b
