@@ -1,8 +1,17 @@
 # Aliases
 alias vim='nvim'
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]'  | pbcopy && pbpaste && echo"
+alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | shpaste && shcopy && echo"
 
 # GPG envs
 export GPG_TTY=$(tty)
+
+# Podman config
+export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
+export TESTCONTAINERS_RYUK_DISABLED=true
+
+# Editor config
+export EDITOR=nvim
+
+# Manual Path additions
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+export PATH="$PATH:/usr/local/bin"
