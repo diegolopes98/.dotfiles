@@ -13,7 +13,8 @@
     chd = !git checkout develop
     chnb = !git checkout -b
 
-[includeIf "gitdir:$HOME/workspace/company/"]
-    path = ~/.gitconfig-company
-[includeIf "gitdir:$HOME/workspace/personal/"]
-    path = ~/.gitconfig-personal
+[includeIf "gitdir:~/workspace/work/"]
+    path = ~/workspace/work/.gitconfig-work
+
+[includeIf "gitdir:~/workspace/personal/"]
+    path = ~/workspace/personal/.gitconfig-personal
