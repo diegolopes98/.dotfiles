@@ -26,4 +26,5 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
 # ASDF config
-. ~/.asdf/plugins/java/set-java-home.zsh
+. ${ASDF_DATA_DIR:-$HOME/.asdf}/plugins/java/set-java-home.zsh
+. ${ASDF_DATA_DIR:-$HOME/.asdf}/plugins/golang/set-env.zsh

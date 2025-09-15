@@ -5,8 +5,7 @@ alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | shpaste && shcop
 # GPG envs
 export GPG_TTY=$(tty)
 
-# Podman config
-export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
+# Testcontainers config
 export TESTCONTAINERS_RYUK_DISABLED=true
 
 # Editor config
