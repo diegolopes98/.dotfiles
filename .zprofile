@@ -9,6 +9,4 @@ fi
 
 if [[ "$(uname)" == "Darwin" ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
-  alias shcopy=pbcopy
-  alias shpaste=pbpaste
 fi

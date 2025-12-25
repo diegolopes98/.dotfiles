@@ -1,6 +1,5 @@
 # Aliases
 alias vim='nvim'
-alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | shpaste && shcopy && echo"
 
 # GPG envs
 export GPG_TTY=$(tty)
