@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["rose-pine.toml"]
+import = ["themes/rose-pine.toml"]
 
 [font]
 size = 12
