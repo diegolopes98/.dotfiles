@@ -1,6 +1,3 @@
-# Aliases
-alias vim='nvim'
-
 # GPG envs
 export GPG_TTY=$(tty)
 
