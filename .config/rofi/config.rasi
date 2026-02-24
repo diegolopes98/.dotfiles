@@ -1,0 +1,7 @@
+@theme "themes/rose-pine-round.rasi"
+
+configuration {
+	modes: "drun";
+	font: "JetbrainsMono Nerd Font 12";
+	show-icons: true;
+}
