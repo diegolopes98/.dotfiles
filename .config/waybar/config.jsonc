@@ -72,8 +72,8 @@
   },
   "custom/uptime": {
     "format": "{}",
-    "interval": 1600,
-    "exec": "sh -c '(uptime -p)'"
+    "interval": 60,
+    "exec": "uptime -p"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
