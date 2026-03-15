@@ -10,3 +10,4 @@ export EDITOR=nvim
 # Manual Path additions
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:$HOME/.local/bin"
