@@ -2,7 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="spaceship"
 
-plugins=(git asdf kubectl dotenv)
+plugins=(kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -25,6 +25,6 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
-# ASDF config
-. ${ASDF_DATA_DIR:-$HOME/.asdf}/plugins/java/set-java-home.zsh
-. ${ASDF_DATA_DIR:-$HOME/.asdf}/plugins/golang/set-env.zsh
+# Mise config
+eval "$(mise activate zsh)"
+eval "$(mise completion zsh)"

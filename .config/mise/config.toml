@@ -1,0 +1,8 @@
+[tools]
+go = "1.26.1"
+java = "temurin-25.0.2+10.0.LTS"
+uv = "0.11.2"
+sbt = "1.12.1"
+gradle = "9.3.0"
+rust = "1.94.1"
+node = "24.14.1"
